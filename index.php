@@ -279,22 +279,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="portfolio-post-type-wedding clearfix">
-				<div class="col-md-6 col-sm-12 no-padding">
-					<div class="carousel">
-						<div class="owl-carousel">
-							<div class="carousel-item">
-								<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
-							<div class="carousel-item">
-								<img src="/img/wedding/wed-2.jpg" alt="" class="carousel-img img-fluid"></div>
-							<div class="carousel-item">
-								<img src="/img/wedding/wed-3.jpg" alt="" class="carousel-img img-fluid"></div>
-							<div class="carousel-item">
-								<img src="/img/wedding/wed-4.jpg" alt="" class="carousel-img img-fluid"></div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-12">
+			<div class="portfolio-post-type-wedding flex clearfix">
+				<div class="col-md-6 flex-item flex-order-2 col-sm-12">
 					<div class="entry">
 						<div class="entry-title">
 							<h3 class="post-title">Одним словом, это было феерично!
@@ -317,7 +303,20 @@
 						</div>
 					</div>
 				</div>
-
+				<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+					<div class="carousel">
+						<div class="owl-carousel">
+							<div class="carousel-item">
+								<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
+							<div class="carousel-item">
+								<img src="/img/wedding/wed-2.jpg" alt="" class="carousel-img img-fluid"></div>
+							<div class="carousel-item">
+								<img src="/img/wedding/wed-3.jpg" alt="" class="carousel-img img-fluid"></div>
+							<div class="carousel-item">
+								<img src="/img/wedding/wed-4.jpg" alt="" class="carousel-img img-fluid"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -409,41 +408,44 @@
 				</div>
 			</div>
 		</div>
-		<div class="review-post flex">
+		<div class="review-post">
 			<div class="row">
-				<div class="col-md-6 flex-item flex-order-2">
-					<div class="review-content">
-						<div class="review-title">
-							<h3>Елена и Павел</h3>
-						</div>
-						<div class="review-text">
-							<p>Довольно сложно подобрать слова, которыми было бы возможно отблагодарить Вас за все.
-								Знаем, что порой мы были очень придирчивы и сами не знали чего же хотим... И мы
-								благодарны Вам за терпение и понимание, за помощь в подготовке, за организованность, за
-								замечательных
-								сотрудников, за великолепных ведущих!</p>
-							<p>
-								Благодаря всем Вам наш счастливый день навсегда останется в наших сердцах как яркое и
-								волнующее воспонимание!</p>
-							<p>
-								Спасибо Вам огромное! Мы очень счастливы!</p>
-							<p>
-								Спасибо всем кто работал с нами!</p>
-							<p>
-								Все замечательные, добрый и отзывчивые.</p>
-							<p>
-								Желаем Вам процветания и благополучия! Вы дарите людям улыбки и радость!</p>
-							<p>Желаем вам только процветания, успешных проведенных торжеств, и
-								чтобы все молодожены обращались только к вам!!!</p>
+				<div class="flex">
+					<div class="col-md-6 flex-item flex-order-2">
+						<div class="review-content">
+							<div class="review-title">
+								<h3>Елена и Павел</h3>
+							</div>
+							<div class="review-text">
+								<p>Довольно сложно подобрать слова, которыми было бы возможно отблагодарить Вас за все.
+									Знаем, что порой мы были очень придирчивы и сами не знали чего же хотим... И мы
+									благодарны Вам за терпение и понимание, за помощь в подготовке, за организованность,
+									за
+									замечательных
+									сотрудников, за великолепных ведущих!</p>
+								<p>
+									Благодаря всем Вам наш счастливый день навсегда останется в наших сердцах как яркое
+									и
+									волнующее воспонимание!</p>
+								<p>
+									Спасибо Вам огромное! Мы очень счастливы!</p>
+								<p>
+									Спасибо всем кто работал с нами!</p>
+								<p>
+									Все замечательные, добрый и отзывчивые.</p>
+								<p>
+									Желаем Вам процветания и благополучия! Вы дарите людям улыбки и радость!</p>
+								<p>Желаем вам только процветания, успешных проведенных торжеств, и
+									чтобы все молодожены обращались только к вам!!!</p>
+							</div>
 						</div>
 					</div>
+					<div class="col-md-6 flex-item flex-order-1 text-md-center">
+						<div class="review-image left"><img
+								src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT364T-M_6GcxAxPZYQcEkQK7_CzWpZ4RtVa-DOrOPERvuhMLAv"
+								alt="" class="review-thumb"></div>
+					</div>
 				</div>
-				<div class="col-md-6 flex-item flex-order-1 text-md-center">
-					<div class="review-image left"><img
-							src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT364T-M_6GcxAxPZYQcEkQK7_CzWpZ4RtVa-DOrOPERvuhMLAv"
-							alt="" class="review-thumb"></div>
-				</div>
-
 			</div>
 		</div>
 		<div class="review-post">

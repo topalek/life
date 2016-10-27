@@ -1,3 +1,6 @@
+<?php
+$p=$_GET['p'];
+?>
 <!doctype html>
 <html lang="ru">
 <head>
@@ -58,11 +61,13 @@
 							</div>
 							<div class="nav-item">
 								<ul class="nav">
-									<li><a href="/" class="nav-link active">главная</a></li>
-									<li><a href="service.html">услуги</a></li>
-									<li><a href="reviews.html">отзывы</a></li>
-									<li><a href="portfolio.html">портфолио</a></li>
-									<li><a href="contacts.html">контакты</a></li>
+									<li><a href="/" class="nav-link <?php echo (!isset($p))? "active" : ""?>">главная</a></li>
+									<li><a href="/?p=service" class="nav-link
+<?php echo (isset($p) && $p=="service")? "active" : ""?>">услуги
+										</a></li>
+									<li><a href="/?p=reviews" class="nav-link <?php echo (isset($p) && $p=="reviews")? "active" : ""?>">отзывы</a></li>
+									<li><a href="/?p=portfolio" class="nav-link <?php echo (isset($p) && $p=="portfolio")? "active" : ""?>">портфолио</a></li>
+									<li><a href="/?p=contacts" class="nav-link <?php echo (isset($p) && $p=="contacts")? "active" : ""?>">контакты</a></li>
 								</ul>
 							</div>
 							<div class="nav-item">
@@ -79,7 +84,8 @@
 							</div>
 							<div class="header_search">
 								<form action="" class="form-search">
-									<input type="text" class="input-search" name="s" placeholder="Например: прокат лимузина">
+									<input type="text" class="input-search" name="s"
+									       placeholder="Например: прокат лимузина">
 									<button class="input-submit" title="Найти">
 										<i class="fa fa-search"></i>
 									</button>
