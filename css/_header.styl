@@ -1,0 +1,291 @@
+.icon
+  display: inline-block
+  margin-right: 5px
+  max-width: 20px
+  max-height: 20px
+  img
+    width: 100%
+    height auto
+    vertical-align: middle
+
+#header_top
+  background-color: #e6e6e6
+  line-height: 30px
+
+.header_email, .header_phone
+  margin: 0 10px
+  a
+    color: #333
+
+#header_nav
+  background: #5b453d url("/img/header-pattern.png") repeat-x
+  color #f8e8d8
+  height: 60px
+  font-size: 16px
+  border-bottom: 1px solid #e1e1e1;
+
+.nav-container
+  position: relative
+.header_search
+  position: absolute
+  visibility hidden
+  top: 0
+  right: 0
+  width: 7%
+  height: 100%
+  transition all .3s ease-in
+  &.active
+    width: 82%
+    visibility visible
+.form-search
+  width: 100%
+  height: 100%
+  padding: 9px 0
+  position relative
+  #close-search
+    position: absolute
+    right: 10px
+    top 10px
+    padding: 4px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #5b453d;
+.input-search
+  float left
+  width: 100%
+  height: 100%
+  border none
+  outline none
+  border-radius:7px
+  padding 5px 20px
+  padding-left: 50px
+button.input-submit
+  color main-color
+  position: absolute
+  font-size 22px
+  left: 0
+  height: 41px
+  width: 41px
+  z-index: 1
+  background: #fff
+  border none
+  outline none
+  border-radius:7px
+  &:acive,&:focus
+    border none
+    outline none
+
+.nav-item
+  float: left
+  margin: 0 15px
+
+.logo
+  margin-top: 8px
+  display: inline-block
+  & >div
+    color: l_color
+
+.logo_header
+  text-transform: uppercase
+  font-family NeoSansProBold, Tahoma, Arial, sans-serif
+
+.search_triger
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 8px;
+  font-size 22px
+
+
+ul.link_group
+  overflow: hidden;
+  margin-top: 9px;
+  li
+    float: left;
+    font-size: 16px;
+    .link
+      border: 1px solid #f5e7d7
+      border-right: none
+      padding: 10px;
+      display: inline-block
+      color: l_color
+      transition all .2s ease-in-out
+      background-color: transparent
+      &:hover
+        background-color: rgba(47, 30, 25, 0.43)
+    &:last-child
+      .link
+        border-right: 1px solid l_color
+        border-radius 0 7px 7px 0
+    &:first-child
+      .link
+        border-radius 7px 0 0 7px
+
+.nav
+  li
+    display: block
+    float: left
+    a
+      display: inline-block
+      line-height: 59px
+      text-transform: capitalize
+      padding: 0 10px
+      transition all .2s ease-in-out
+      background-color: transparent
+      color: l_color
+      &.active
+        color: #fff
+        font-weight: bold
+      &:hover
+        background-color: rgba(47, 30, 25, 0.43)
+
+#hero
+  color #fff
+  padding: 0
+
+.hero_img
+  background: url("/img/home_01.jpg") no-repeat 50% 50%
+  background-size: cover
+  width: 100%;
+  height: 580px;
+  max-height: 580px;
+  position: relative
+//&:after
+//  content ''
+//  display: block
+//  position: absolute
+//  top: 0
+//  left: 0
+//  right: 0
+//  bottom: 0
+//  background-color: rgba(100, 100, 100, .5)
+//  z-index: 0;
+
+.nets
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2
+
+.social li
+  margin 20px
+
+.net_link
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px
+  border: 2px solid;
+  border-radius: 50%;
+  display: inline-block;
+  transition all .2s ease-in-out
+  &:hover, &:active, &:focus
+    color: #fff
+  &:hover
+    background-color: rgba(255, 255, 255, .3)
+
+.page_title
+  width: 75%
+  margin: 0 auto
+  position: relative
+  z-index: 1
+  top: 27%
+  color #fff
+  .title
+    font-family: NeoSansProBold, Tahoma, Arial, sans-serif;
+    font-size: 45px
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.55)
+  .description
+    font-size: 18px
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 60px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.55)
+  .slogan
+    font-family: NeoSansProRegular, Tahoma, Arial, sans-serif
+    font-size: 42px
+
+.my-btn
+  padding: 20px 25px
+  display: inline-block
+  text-align: center
+  color: #fff
+  font-size: 16px
+  font-family: NeoSansProRegular, Tahoma, Arial, sans-serif
+  font-weight: bold
+  background: accent-color
+  background: linear-gradient(to bottom, #ff5859 0%, #d43334 100%)
+  box-shadow 0 7px 13px rgba(0, 0, 0, .4), 0 6px 0 rgba(0, 0, 0, .4)
+  border-radius: 5px
+  transition all .2s ease-in-out
+  &.simple
+    background: accent-color;
+    padding: 15px 20px;
+    &:hover,
+    &:active
+      color: #fff;
+      background: darken(accent-color,15%);
+  &.ghost
+    background: transparent;
+    border: 1px solid accent-color
+    box-shadow: none;
+    color: accent-color;
+    padding: 25px 20px;
+    width: 100%;
+    &:hover,
+    &:active
+      background: transparent;
+      color: darken(accent-color,15%)
+      border: 1px solid darken(accent-color,15%)
+  &:hover
+    color: #fff;
+    background: linear-gradient(to bottom, #d43334 0%, #d43334 100%)
+
+.sep
+  height: 4px
+  width: 170px
+  background-color: accent-color
+  display: inline-block
+  margin: 15px 0 25px
+  border-radius: 3px
+
+section
+  background #fff
+  padding: 30px
+
+.arr_top
+  position: relative
+  &:after
+    display: block
+    position: absolute
+    content ''
+    width: 56px
+    height: 56px
+    border-radius 50%
+    top: -30px
+    left 50%
+    background: #fff url(/img/svg/arr-d.svg) no-repeat 50%
+    background-size: 25%
+    transform translateX(-50%)
+  &.border
+    &:before
+      display: block
+      position: absolute
+      content ''
+      width: 62px
+      height: 62px
+      border-radius 50%
+      top: -32px
+      left 50%
+      transform translateX(-50%) rotate(-45deg)
+      border 3px solid accent-color
+      border-top-color transparent
+      border-right-color transparent
+
+
+.section-title
+  padding: 20px
+  font:33px NeoSansProBold, Tahoma, Arial, sans-serif
+  text-transform: uppercase
+  color: main-color
+  text-align: center
