@@ -181,7 +181,7 @@
 							<div class="service-item clearfix">
 								<div class="col-xs-2 no-padding">
 									<svg class="icon-svg icon-double-bed">
-										<use xlink:href="/img/svg/symbol-defs.svg#icon-bed"></use>
+										<use xlink:href="/img/svg/symbol-defs.svg#icon-wedding"></use>
 									</svg>
 								</div>
 								<div class="col-xs-10">
