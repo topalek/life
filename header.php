@@ -72,8 +72,8 @@ $p=$_GET['p'];
 							</div>
 							<div class="nav-item">
 								<ul class="link_group">
-									<li><a href="#" class="link">Театр песни "<strong>Сапфир</strong>"</a></li>
-									<li><a href="#" class="link">Кавер группа "<strong>Carre</strong>"</a></li>
+									<li><a href="/?p=sapphire" class="link<?php echo (isset($p) && $p=="sapphire")? " active" : ""?>">Театр песни "<strong>Сапфир</strong>"</a></li>
+									<li><a href="/?p=carre" class="link<?php echo (isset($p) && $p=="carre")? " active" : ""?>">Кавер группа "<strong>Carre</strong>"</a></li>
 								</ul>
 							</div>
 

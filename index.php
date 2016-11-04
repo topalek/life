@@ -1,5 +1,6 @@
 <?php include "header.php"; ?>
 	<div class="container">
+		<?php if ($p === null): ?>
 		<section id="hero">
 			<div class="row">
 				<div class="col-md-12 no-padding">
@@ -563,6 +564,8 @@
 				</div>
 			</form>
 		</section>
+	<?php endif; ?>
+		<?php if ($p) include $p.".php"?>
 	</div>
 
 <?php include "footer.php"; ?>
