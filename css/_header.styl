@@ -140,7 +140,22 @@ ul.link_group
       &:hover
         background-color: rgba(47, 30, 25, 0.43)
 
-#hero
+.modal-top
+  margin-bottom: 20px
+.modal-body
+  padding: 25px
+.modal-footer
+     padding: 10px 25px
+.modal
+  .modal-title
+    margin-top:10px
+  .form
+    border-top:none
+    label
+      font-size: 14px
+      float: right
+
+.hero
   color #fff
   padding: 0 15px
 
@@ -193,7 +208,8 @@ ul.link_group
   margin: 0 auto
   position: relative
   z-index: 1
-  top: 27%
+  top: 50%
+  transform translateY(-50%)
   color #fff
   .title
     font-family: NeoSansProBold, Tahoma, Arial, sans-serif;
@@ -208,11 +224,14 @@ ul.link_group
     font-family: NeoSansProRegular, Tahoma, Arial, sans-serif
     font-size: 42px
 
-.my-btn
+.bnt-container
+  max-width: 85%
+  margin: 30px auto
+
+a.my-btn
   padding: 20px 25px
   display: inline-block
   text-align: center
-  color: #fff
   font-size: 16px
   font-family: NeoSansProRegular, Tahoma, Arial, sans-serif
   font-weight: bold
@@ -221,29 +240,38 @@ ul.link_group
   box-shadow 0 7px 13px rgba(0, 0, 0, .4), 0 6px 0 rgba(0, 0, 0, .4)
   border-radius: 5px
   transition all .2s ease-in-out
+  color: #fff
   &.simple
+    color: #fff
+    width: 100%;
     background: accent-color;
     padding: 15px 20px;
     &:hover,
+    &:focus,
     &:active
-      color: #fff;
       background: darken(accent-color,15%);
   &.ghost
+    width: 100%;
+    color: accent-color;
     background: transparent;
     border: 1px solid accent-color
     box-shadow: none;
-    color: accent-color;
     padding: 25px 20px;
-    width: 100%;
     &:hover,
+    &:focus,
     &:active
       background: transparent;
       color: darken(accent-color,15%)
       border: 1px solid darken(accent-color,15%)
-  &:hover
-    color: #fff;
+    &.active
+      color #fff
+      background: accent-color;
+  &:hover,
+  &:active
     background: linear-gradient(to bottom, #d43334 0%, #d43334 100%)
-
+    color #fff
+  &:focus
+    color #fff
 .sep
   height: 4px
   width: 170px
@@ -255,7 +283,8 @@ ul.link_group
 section
   background #fff
   padding: 30px 15px
-
+section#form
+  background-color: transparent
 .arr_top
   position: relative
   &:after
