@@ -940,3 +940,58 @@ section#form {
   background-size: cover;
 }
 /* end portfolio-page */
+/* start contacts-page */
+.contacts-page-hero_img {
+  background: url("/img/contacts-page-bg.jpg") no-repeat center;
+  height: 436px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.contacts-page-info {
+  min-height: 200px;
+}
+.contacts-page_title .title {
+  font: 2.5rem NeoSansProBold, Tahoma, Arial, sans-serif;
+}
+.contacts-cloud {
+  position: relative;
+  margin: 0 auto;
+  width: 480px;
+  background: url("/img/contact-cloud.png") no-repeat center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  height: 383px;
+}
+.contacts-cloud .contacts-page-contacts {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 46%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.contacts-cloud .contacts-page-contacts .phone,
+.contacts-cloud .contacts-page-contacts .email {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.contacts-cloud .contacts-page-contacts .phone a,
+.contacts-cloud .contacts-page-contacts .email a {
+  color: #424242;
+}
+.contacts-cloud .contacts-page-contacts .phone a:hover,
+.contacts-cloud .contacts-page-contacts .email a:hover,
+.contacts-cloud .contacts-page-contacts .phone a:active,
+.contacts-cloud .contacts-page-contacts .email a:active,
+.contacts-cloud .contacts-page-contacts .phone a:focus,
+.contacts-cloud .contacts-page-contacts .email a:focus {
+  color: #383838;
+}
+/* end contacts-page */
