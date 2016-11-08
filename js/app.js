@@ -1,9 +1,13 @@
 $(function () {
     carouselInit();
 
-    $('.tab').on('shown.bs.tab', function (e) {
+    $('.tab').on('hide.bs.tab', function (e) {
+        // $('.owl-carousel').trigger('refresh');
+        // $($(this).attr('href')+' .owl-carousel').trigger('destroy');
         // carouselInit();
-        $('.owl-carousel').trigger('refresh.owl.carousel');
+    });
+    $('.tab').on('shown.bs.tab', function (e) {
+       
 
     });
 
