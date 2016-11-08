@@ -21,7 +21,7 @@
 		</div>
 	</div>
 </section>
-<section id="portfolio" class="arr_top wow slideInUp">
+<section id="portfolio" class="arr_top">
 	<div class="row">
 		<ul class="btn-block flex tabs" role="tablist">
 			<li class="nav-item col-xs-6">
