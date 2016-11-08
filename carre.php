@@ -39,12 +39,31 @@
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-12 text-xs-center">
-					<div class="col-md-6">
-						<a href="#" class="my-btn ghost p-25">Стотреть плей-лист <span> ></span></a>
+					<div class="m-x-auto">
+							<a href="#" class="my-btn ghost p-25">Стотреть плей-лист <span> ></span></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
+</section>
+<section id="portfolio" class="arr_top">
+	<div class="row">
+		<div class="col-md-12">
+			<h2 class="section-title">портфолио</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 no-padding">
+			<!-- 16:9 aspect ratio -->
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe  class="embed-responsive-item"  src="https://www.youtube.com/embed/9xX0cSf5mxI" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="owlCarousel">
+				.owl-carousel
+			</div>
+		</div>
+	</div>
 </section>
