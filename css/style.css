@@ -995,3 +995,12 @@ section#form {
   color: #383838;
 }
 /* end contacts-page */
+/* start carre-page */
+.carre-page-hero_img {
+  background: url("/img/carre-page-bg.jpg") no-repeat center;
+  max-height: 580px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+/* end carre-page */
