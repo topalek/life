@@ -13,12 +13,17 @@ $p=$_GET['p'];
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/lightgallery.css">
 	<link rel="stylesheet" href="css/owl.carousel.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.waypoints.min.js"></script>
 	<script src="js/modernizr-custom.js"></script>
 	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script src="js/lightgallery.js"></script>
+	<script src="js/lg-video.min.js"></script>
+	<script src="js/lg-fullscreen.min.js"></script>
 	<script src="js/wow.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/app.js"></script>
@@ -45,7 +50,7 @@ $p=$_GET['p'];
 						<i class="icon">
 							<img src="img/svg/evelope.svg" alt="phone-ringing">
 						</i>
-						<a href="mailto:life.anna.t@gmail.com">life.anna.t@gmail.com</a>
+						<a href="mailto:markiza.topalova@gmail.com">markiza.topalova@gmail.com</a>
 					</div>
 				</div>
 			</div>

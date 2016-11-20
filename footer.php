@@ -58,7 +58,7 @@
 						<i class="icon">
 							<img src="img/svg/evelope-white.svg" alt="phone-ringing">
 						</i>
-						<a href="mailto:life.anna.t@gmail.com">life.anna.t@gmail.com</a>
+						<a href="mailto:markiza.topalova@gmail.com">markiza.topalova@gmail.com</a>
 					</div>
 					<div class="pull-right">
 						<div class="header_phone">

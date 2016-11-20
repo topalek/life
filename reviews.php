@@ -4,10 +4,10 @@
 			<div class="review-page-hero_img">
 				<div class="nets">
 					<ul class="social">
-						<li><a href="#" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-vk"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/anna.topalova.92" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="https://vk.com/life_is_wonrderful" class="net_link"><i class="fa fa-vk"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UC8LX2tdQFKok1i3tecVx1Iw" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="https://www.instagram.com/anna.topalova/" class="net_link"><i class="fa fa-instagram"></i></a></li>
 					</ul>
 				</div>
 				<div class="page_title text-xs-center">
@@ -24,7 +24,7 @@
 </section>
 <section id="reviews" class="arr_top">
 	<div class="row">
-		<ul class="btn-block flex tabs" role="tablist">
+		<ul class="btn-block clearfix tabs" role="tablist">
 			<li class="nav-item col-xs-4">
 				<a class="tab my-btn ghost active" data-toggle="tab" href="#events" role="tab">Мероприятия</a>
 			</li>
@@ -68,8 +68,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -105,7 +105,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT364T-M_6GcxAxPZYQcEkQK7_CzWpZ4RtVa-DOrOPERvuhMLAv"
 											alt="" class="review-thumb"></div>
@@ -140,8 +140,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -177,7 +177,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT364T-M_6GcxAxPZYQcEkQK7_CzWpZ4RtVa-DOrOPERvuhMLAv"
 											alt="" class="review-thumb"></div>
@@ -212,8 +212,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -249,7 +249,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT364T-M_6GcxAxPZYQcEkQK7_CzWpZ4RtVa-DOrOPERvuhMLAv"
 											alt="" class="review-thumb"></div>
@@ -284,8 +284,8 @@
 				<div class="row">
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -317,7 +317,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://s-media-cache-ak0.pinimg.com/736x/69/34/a3/6934a37b2cd6b3dcaa688cead156db1c.jpg"
 											alt="" class="review-thumb"></div>
@@ -352,8 +352,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -385,7 +385,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://s-media-cache-ak0.pinimg.com/736x/69/34/a3/6934a37b2cd6b3dcaa688cead156db1c.jpg"
 											alt="" class="review-thumb"></div>
@@ -420,8 +420,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -453,7 +453,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://s-media-cache-ak0.pinimg.com/736x/69/34/a3/6934a37b2cd6b3dcaa688cead156db1c.jpg"
 											alt="" class="review-thumb"></div>
@@ -538,8 +538,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -575,7 +575,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmlgIkmSxbJwLRm4mVIxB_oGOt4DIp0u1xlrfbAiZbe68UgfHR"
 											alt="" class="review-thumb"></div>
@@ -610,8 +610,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -647,7 +647,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmlgIkmSxbJwLRm4mVIxB_oGOt4DIp0u1xlrfbAiZbe68UgfHR"
 											alt="" class="review-thumb"></div>
@@ -682,8 +682,8 @@
 					</div>
 					<div class="review-post">
 						<div class="row">
-							<div class="flex">
-								<div class="col-md-6 flex-item flex-order-2">
+							<div class="invert">
+								<div class="col-md-6 right">
 									<div class="review-content">
 										<div class="review-title">
 											<h3>Елена и Павел</h3>
@@ -719,7 +719,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6 flex-item flex-order-1 text-md-center">
+								<div class="col-md-6  text-md-center">
 									<div class="review-image left"><img
 											src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTmlgIkmSxbJwLRm4mVIxB_oGOt4DIp0u1xlrfbAiZbe68UgfHR"
 											alt="" class="review-thumb"></div>

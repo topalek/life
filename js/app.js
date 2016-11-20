@@ -1,13 +1,29 @@
-$(function () {
-    carouselInit();
+var c_def = {
+    items: 1,
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: true,
+    navText: ['&nbsp;', '&nbsp;']
+};
 
-    $('.tab').on('hide.bs.tab', function (e) {
-        // $('.owl-carousel').trigger('refresh');
-        $($(this).attr('href')+' .owl-carousel').trigger('destroy');
-        // carouselInit();
+
+
+$(function () {
+    $('.video-gallery').lightGallery({
+        selector: '.fancybox',
+        mode:   'lg-tube'
     });
+    $('#photo').lightGallery({
+        selector: '.photo-gallery-item',
+        mode:   'lg-tube'
+    });
+
+    $('#wedding .portfolio-carousel').owlCarousel(c_def);
+
     $('.tab').on('shown.bs.tab', function (e) {
-        $($(this).attr('href')+' .owl-carousel').owlCarousel({items: 1,loop: true,margin: 10,nav: true,dots: true,navText: ['&nbsp;', '&nbsp;']})
+        console.log($(this).attr('href')+' .portfolio-carousel');
+        $($(this).attr('href')+' .portfolio-carousel').owlCarousel(c_def)
 
     });
 
@@ -16,13 +32,5 @@ $(function () {
     })
 });
 function carouselInit() {
-    $('.owl-carousel').owlCarousel({
-        items: 1,
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: true,
-        navText: ['&nbsp;', '&nbsp;']
-        // navText: ['&#128896;','&#128898;']
-    });
+    $('.owl-carousel').owlCarousel(c_def);
 }

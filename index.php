@@ -7,10 +7,10 @@
 				<div class="hero_img">
 					<div class="nets">
 						<ul class="social">
-							<li><a href="#" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
-							<li><a href="#" class="net_link"><i class="fa fa-vk"></i></a></li>
-							<li><a href="#" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
-							<li><a href="#" class="net_link"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/anna.topalova.92" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
+							<li><a href="https://vk.com/life_is_wonrderful" class="net_link"><i class="fa fa-vk"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UC8LX2tdQFKok1i3tecVx1Iw" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
+							<li><a href="https://www.instagram.com/anna.topalova/" class="net_link"><i class="fa fa-instagram"></i></a></li>
 						</ul>
 					</div>
 					<div class="page_title text-xs-center">
@@ -273,8 +273,8 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="portfolio-post-type-wedding flex clearfix">
-				<div class="col-md-6 flex-item flex-order-2 col-sm-12">
+			<div class="portfolio-post-type-wedding invert clearfix">
+				<div class="col-md-6 right col-sm-12">
 					<div class="entry">
 						<div class="entry-title">
 							<h3 class="post-title">Одним словом, это было феерично!
@@ -297,7 +297,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+				<div class="col-md-6 col-sm-12 no-padding">
 					<div class="carousel">
 						<div class="owl-carousel">
 							<div class="carousel-item">
@@ -404,8 +404,8 @@
 		</div>
 		<div class="review-post">
 			<div class="row">
-				<div class="flex">
-					<div class="col-md-6 flex-item flex-order-2">
+				<div class="invert">
+					<div class="col-md-6 right">
 						<div class="review-content">
 							<div class="review-title">
 								<h3>Елена и Павел</h3>
@@ -437,7 +437,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 flex-item flex-order-1 text-md-center">
+					<div class="col-md-6  text-md-center">
 						<div class="review-image left"><img
 								src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT364T-M_6GcxAxPZYQcEkQK7_CzWpZ4RtVa-DOrOPERvuhMLAv"
 								alt="" class="review-thumb"></div>

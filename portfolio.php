@@ -4,10 +4,10 @@
 			<div class="portfolio-page-hero_img">
 				<div class="nets">
 					<ul class="social">
-						<li><a href="#" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-vk"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/anna.topalova.92" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="https://vk.com/life_is_wonrderful" class="net_link"><i class="fa fa-vk"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UC8LX2tdQFKok1i3tecVx1Iw" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="https://www.instagram.com/anna.topalova/" class="net_link"><i class="fa fa-instagram"></i></a></li>
 					</ul>
 				</div>
 				<div class="page_title text-xs-center">
@@ -23,7 +23,7 @@
 </section>
 <section id="portfolio" class="arr_top">
 	<div class="row">
-		<ul class="btn-block flex tabs" role="tablist">
+		<ul class="btn-block clearfix tabs" role="tablist">
 			<li class="nav-item col-xs-6">
 				<a class="tab my-btn ghost active" data-toggle="tab" href="#wedding" role="tab">Для свадьбы</a>
 			</li>
@@ -63,7 +63,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -78,8 +78,8 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="portfolio-post-type-wedding flex clearfix">
-							<div class="col-md-6 flex-item flex-order-2 col-sm-12">
+						<div class="portfolio-post-type-wedding invert clearfix">
+							<div class="col-md-6 right col-sm-12">
 								<div class="entry">
 									<div class="entry-title">
 										<h3 class="post-title">Одним словом, это было феерично!
@@ -102,9 +102,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+							<div class="col-md-6  col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -143,7 +143,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -158,8 +158,8 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="portfolio-post-type-wedding flex clearfix">
-							<div class="col-md-6 flex-item flex-order-2 col-sm-12">
+						<div class="portfolio-post-type-wedding invert clearfix">
+							<div class="col-md-6 right col-sm-12">
 								<div class="entry">
 									<div class="entry-title">
 										<h3 class="post-title">Одним словом, это было феерично!
@@ -182,9 +182,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+							<div class="col-md-6  col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -223,7 +223,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -238,8 +238,8 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="portfolio-post-type-wedding flex clearfix">
-							<div class="col-md-6 flex-item flex-order-2 col-sm-12">
+						<div class="portfolio-post-type-wedding invert clearfix">
+							<div class="col-md-6 right col-sm-12">
 								<div class="entry">
 									<div class="entry-title">
 										<h3 class="post-title">Одним словом, это было феерично!
@@ -262,9 +262,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+							<div class="col-md-6  col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -304,8 +304,8 @@
 			<div class="tab-pane" id="corporative" role="tabpanel">
 				<div class="row">
 					<div class="row">
-						<div class="portfolio-post-type-wedding flex clearfix">
-							<div class="col-md-6 flex-item flex-order-2 col-sm-12">
+						<div class="portfolio-post-type-wedding invert clearfix">
+							<div class="col-md-6 right col-sm-12">
 								<div class="entry">
 									<div class="entry-title">
 										<h3 class="post-title">Одним словом, это было феерично!
@@ -328,9 +328,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+							<div class="col-md-6  col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -370,7 +370,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -385,8 +385,8 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="portfolio-post-type-wedding flex clearfix">
-							<div class="col-md-6 flex-item flex-order-2 col-sm-12">
+						<div class="portfolio-post-type-wedding invert clearfix">
+							<div class="col-md-6 right col-sm-12">
 								<div class="entry">
 									<div class="entry-title">
 										<h3 class="post-title">Одним словом, это было феерично!
@@ -409,9 +409,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+							<div class="col-md-6  col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -450,7 +450,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -465,8 +465,8 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="portfolio-post-type-wedding flex clearfix">
-							<div class="col-md-6 flex-item flex-order-2 col-sm-12">
+						<div class="portfolio-post-type-wedding invert clearfix">
+							<div class="col-md-6 right col-sm-12">
 								<div class="entry">
 									<div class="entry-title">
 										<h3 class="post-title">Одним словом, это было феерично!
@@ -489,9 +489,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 flex-item flex-order-1 col-sm-12 no-padding">
+							<div class="col-md-6  col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">
@@ -530,7 +530,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12 no-padding">
 								<div class="carousel">
-									<div class="owl-carousel">
+									<div class="portfolio-carousel">
 										<div class="carousel-item">
 											<img src="/img/wedding/wed-1.jpg" alt="" class="carousel-img img-fluid"></div>
 										<div class="carousel-item">

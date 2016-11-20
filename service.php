@@ -4,10 +4,10 @@
 			<div class="serviсe-hero_img">
 				<div class="nets">
 					<ul class="social">
-						<li><a href="#" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-vk"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
-						<li><a href="#" class="net_link"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.facebook.com/anna.topalova.92" class="net_link"><i class="fa fa-facebook-f"></i></a></li>
+						<li><a href="https://vk.com/life_is_wonrderful" class="net_link"><i class="fa fa-vk"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UC8LX2tdQFKok1i3tecVx1Iw" class="net_link"><i class="fa fa-youtube-play"></i></a></li>
+						<li><a href="https://www.instagram.com/anna.topalova/" class="net_link"><i class="fa fa-instagram"></i></a></li>
 					</ul>
 				</div>
 				<div class="page_title text-xs-center">
@@ -388,12 +388,15 @@
 		</div>
 	</div>
 	<div class="row">
-		<ul class="btn-block flex tabs" role="tablist">
+		<ul class="btn-block tabs clearfix" role="tablist">
+			<li class="row">
 			<li class="nav-item col-xs-6">
 				<a class="tab my-btn ghost active" data-toggle="tab" href="#wedding" role="tab">Для свадьбы</a>
 			</li>
 			<li class="nav-item col-xs-6">
-				<a class="tab my-btn ghost" data-toggle="tab" href="#corporative" role="tab">Для банкета, корпоратива</a>
+				<a class="tab my-btn ghost" data-toggle="tab" href="#corporative" role="tab">Для банкета,
+					корпоратива</a>
+			</li>
 			</li>
 
 		</ul>
